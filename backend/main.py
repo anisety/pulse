@@ -13,4 +13,4 @@ def read_root():
 
 @app.post("/extract")
 def get_keywords(text_in: TextIn):
-    return extract_keywords(text_in.text)
+    return extract_keywords(text_in.text) 
