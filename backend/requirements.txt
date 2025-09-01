@@ -4,3 +4,8 @@ spacy
 en_core_web_sm
 python-multipart
 pydantic
+fastapi
+uvicorn[standard]
+spacy
+pydantic
+python-multipart
